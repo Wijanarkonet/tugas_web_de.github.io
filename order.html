@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Form Order</title>
+    <link rel="icon" type="image/png" href="assets/Biru Ilustrasi Simpel Logo Toko Botol.png">
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Form Order Tumbler</h2>
+
+        <form action="simpan_order.php" method="POST">
+            <label>Nama Pembeli</label>
+            <input type="text" name="customer_name" required>
+
+            <label>No HP</label>
+            <input type="text" name="customer_phone" required>
+
+            <label>Produk</label>
+            <input type="text" name="product_name" required>
+
+            <label>Warna</label>
+            <select name="color" required>
+                <option value="">--Pilih--</option>
+                <option value="Hitam">Hitam</option>
+                <option value="Putih">Putih</option>
+                <option value="Merah">Merah</option>
+                <option value="Biru">Biru</option>
+                <option value="Hijau">Hijau</option>
+                <option value="Coklat">Coklat</option>
+                <option value="Pink">Pink</option>
+            </select>
+
+            <label>Jumlah</label>
+            <input type="number" name="quantity" min="1" required>
+
+            <label>Total Harga</label>
+            <input type="number" name="total_price" required>
+
+            <button type="submit">Kirim Order</button>
+        </form>
+    </div>
+</body>
+
+</html>
