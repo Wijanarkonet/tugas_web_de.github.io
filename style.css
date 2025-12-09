@@ -87,7 +87,7 @@ HOME — HERO SECTION
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.45)),
-        url("assets/bckgrd.jpg") center/cover no-repeat;
+        url("bckgrd.jpg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,4 +205,5 @@ footer {
     padding: 30px;
     text-align: center;
     margin-top: 40px;
+
 }
